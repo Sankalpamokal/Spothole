@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <TextView
+            android:id="@+id/postcomplain"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="25sp"
+            android:layout_width="200sp"
+            android:layout_height="90sp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:layout_marginTop="15sp"
+            android:text="Post Complaint"/>
+
+        <ImageView
+            android:id="@+id/setimage"
+            android:layout_width="325sp"
+            android:layout_height="250sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="110sp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/setimage" />
+
+
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="370sp"
+            android:ems="14"
+            android:inputType="textPersonName"
+            android:hint="Enter Title" />
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="450sp"
+            android:ems="14"
+            android:inputType="textPersonName"
+            android:hint="Enter Description" />
+
+        <TextView
+            android:id="@+id/displayLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500sp"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/submitimage"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="600sp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:text="Submit"
+            android:background="@drawable/custom_button"
+            />
+        <Button
+            android:id="@+id/getlocation"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="540sp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:text="GetLocation"
+            android:background="@drawable/custom_button"
+            />
+
+    </RelativeLayout>
+</android.support.v4.widget.DrawerLayout>

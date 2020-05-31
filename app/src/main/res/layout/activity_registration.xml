@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity"
+    android:background="@color/grey">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="250sp"
+        android:layout_height="250sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15sp"
+        android:layout_marginLeft="40sp"
+        android:src="@drawable/spothole" />
+
+    <TextView
+        android:fontFamily="sans-serif-medium"
+        android:textSize="45sp"
+        android:layout_width="170sp"
+        android:layout_height="90sp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_marginTop="240sp"
+        android:text="Sign Up" />
+
+    <EditText
+        android:id="@+id/regName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="315sp"
+        android:ems="14"
+        android:inputType="textPersonName"
+        android:hint="Enter Name"/>
+
+    <EditText
+        android:id="@+id/regEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="380sp"
+        android:ems="14"
+        android:inputType="textEmailAddress"
+        android:hint="Enter Email"/>
+
+    <EditText
+        android:id="@+id/regPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="445sp"
+        android:ems="14"
+        android:inputType="textPassword"
+        android:hint="Enter Password"/>
+
+    <Button
+        android:id="@+id/regButton"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="520sp"
+        android:text="Create Account"
+        android:background="@drawable/custom_button"/>
+
+    <TextView
+        android:id="@+id/move2login"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_marginTop="595sp"
+        android:text="Already have an account? Login here" />
+</RelativeLayout>

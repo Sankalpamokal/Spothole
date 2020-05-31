@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "52130268560",
+    "firebase_url": "https://spothole-47670.firebaseio.com",
+    "project_id": "spothole-47670",
+    "storage_bucket": "spothole-47670.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52130268560:android:908868a8f05ba56e",
+        "android_client_info": {
+          "package_name": "com.example.spothole"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52130268560-iqt5gvbi95lshvn2q7pjraqjuj5kac26.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.spothole",
+            "certificate_hash": "63aa55e9496e22930edcb8c8b6a4378f762780c5"
+          }
+        },
+        {
+          "client_id": "52130268560-jo9ihde24fi5hsqip0d80jihjuk05nsl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBTpKTqalM3C-H9CtR9srFMk5UNSZ6HBI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52130268560-jo9ihde24fi5hsqip0d80jihjuk05nsl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@color/grey">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="250sp"
+        android:layout_height="250sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15sp"
+        android:layout_marginLeft="40sp"
+        android:src="@drawable/spothole" />
+
+    <TextView
+        android:fontFamily="sans-serif-medium"
+        android:textSize="45sp"
+        android:layout_width="170sp"
+        android:layout_height="90sp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_marginTop="250sp"
+        android:text="Login" />
+
+    <EditText
+        android:id="@+id/regEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="325sp"
+        android:ems="14"
+        android:inputType="textEmailAddress"
+        android:hint="Enter Email"/>
+
+    <EditText
+        android:id="@+id/regPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="400sp"
+        android:ems="14"
+        android:inputType="textPassword"
+        android:hint="Enter Password"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="475sp"
+        android:text="Login"
+        android:textSize="15sp"
+        android:background="@drawable/custom_button"/>
+    <TextView
+        android:id="@+id/movetoreg"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_marginTop="570sp"
+        android:text="Don't have an account? Create new" />
+</RelativeLayout>
