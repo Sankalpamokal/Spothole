@@ -19,7 +19,7 @@
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.spothole",
-            "certificate_hash": "63aa55e9496e22930edcb8c8b6a4378f762780c5"
+            "certificate_hash": "<sha hash goes here>"
           }
         },
         {
@@ -29,7 +29,7 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDBTpKTqalM3C-H9CtR9srFMk5UNSZ6HBI"
+          "current_key": "//<api key here>"
         }
       ],
       "services": {
