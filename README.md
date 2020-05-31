@@ -10,7 +10,8 @@ Potholes have became a major problem for the citizens travelling daily. The main
 <img src="https://raw.githubusercontent.com/Sankalpamokal/Spothole/master/assets/readme_images/login.png" width="250" height="500">
  <br/>   <em>Login Page</em>
 </p>
-<p><img src="https://raw.githubusercontent.com/Sankalpamokal/Spothole/master/assets/readme_images/home_page.png" width="250" height="500">
+<p align="center">
+<img src="https://raw.githubusercontent.com/Sankalpamokal/Spothole/master/assets/readme_images/home_page.png" width="250" height="500">
  <br/>   <em>Home Page</em>
 </p>
 <p align="center">
